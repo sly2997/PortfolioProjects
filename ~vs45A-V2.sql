@@ -1,4 +1,4 @@
-...
+'''
 	SELECT TOP (1000) [iso_code]
       ,[continent]
       ,[location]
@@ -154,4 +154,4 @@ CREATE VIEW PERCENNTPOPULATIONVACINATED AS
 		AND dea.date = vac.date
 		WHERE dea.continent IS NOT NULL
 		--ORDER BY 2,3
-...
+'''
